@@ -13,7 +13,7 @@ import (
 	"net/http"
 
 	"github.com/cloudhut/common/rest"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 	"github.com/redpanda-data/console/backend/pkg/console"
 	"go.uber.org/zap"
 )

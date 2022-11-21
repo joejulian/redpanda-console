@@ -5,10 +5,10 @@ go 1.18
 require (
 	github.com/basgys/goxml2json v1.1.0
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869
-	github.com/cloudhut/common v0.6.1
+	github.com/cloudhut/common v0.7.0
 	github.com/cloudhut/connect-client v0.0.0-20220929214026-6c714f7b6651
-	github.com/dop251/goja v0.0.0-20221106173738-3b8a68ca89b4
-	github.com/go-chi/chi v4.1.2+incompatible
+	github.com/dop251/goja v0.0.0-20221118162653-d4bf6fde1b86
+	github.com/go-chi/chi/v5 v5.0.7
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/go-resty/resty/v2 v2.7.0
@@ -24,15 +24,15 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
-	github.com/redpanda-data/redpanda/src/go/rpk v0.0.0-20221111090043-f1e7b94313b5
+	github.com/redpanda-data/redpanda/src/go/rpk v0.0.0-20221121142847-8d8b0fc07c08
 	github.com/stretchr/testify v1.8.0
-	github.com/twmb/franz-go v1.9.2-0.20221101035527-a07b8c8a01ce
+	github.com/twmb/franz-go v1.10.0
 	github.com/twmb/franz-go/pkg/kmsg v1.2.0
 	github.com/twmb/franz-go/pkg/sasl/kerberos v1.1.0
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 	github.com/zencoder/go-smile v0.0.0-20220221105746-06ef4fe5fa0a
 	go.uber.org/zap v1.23.0
-	golang.org/x/exp v0.0.0-20221110155412-d0897a79cd37
+	golang.org/x/exp v0.0.0-20221114191408-850992195362
 	golang.org/x/net v0.2.0
 	golang.org/x/sync v0.1.0
 	google.golang.org/protobuf v1.28.1
@@ -82,20 +82,20 @@ require (
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/sethgrid/pester v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/spf13/afero v1.9.2 // indirect
+	github.com/spf13/afero v1.9.3 // indirect
 	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/twmb/tlscfg v1.2.0 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	github.com/xanzy/ssh-agent v0.3.2 // indirect
+	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.2.0 // indirect
+	golang.org/x/crypto v0.3.0 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/tools v0.3.0 // indirect
-	google.golang.org/genproto v0.0.0-20221109142239-94d6d90a7d66 // indirect
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

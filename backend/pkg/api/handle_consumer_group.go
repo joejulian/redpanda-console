@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 	"github.com/twmb/franz-go/pkg/kmsg"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
